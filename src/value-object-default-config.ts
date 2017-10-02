@@ -29,6 +29,7 @@ export const VALUE_OBJECT_DEFAULT_CONFIG = {
     'description',
     'equality',
     'fetch-status',
+    'iglistdiffable',
     'immutable-properties',
     'init-new-unavailable',
     'use-cpp'
