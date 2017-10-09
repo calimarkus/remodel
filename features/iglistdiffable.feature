@@ -89,7 +89,7 @@ Feature: Outputting Value Objects implementing IGListDiffable
           (_stringOne == object->_stringOne ? YES : [_stringOne isEqual:object->_stringOne]);
       }
 
-      - (BOOL)isEqualToDiffableObject:(id)object
+      - (BOOL)isEqualToDiffableObject:(nullable id)object
       {
         return [self isEqual:object];
       }
@@ -182,7 +182,7 @@ Feature: Outputting Value Objects implementing IGListDiffable
           CGRectEqualToRect(_someRect, object->_someRect);
       }
 
-      - (BOOL)isEqualToDiffableObject:(id)object
+      - (BOOL)isEqualToDiffableObject:(nullable id)object
       {
         return [self isEqual:object];
       }
@@ -274,7 +274,7 @@ Feature: Outputting Value Objects implementing IGListDiffable
           CGRectEqualToRect(_someRect, object->_someRect);
       }
 
-      - (BOOL)isEqualToDiffableObject:(id)object
+      - (BOOL)isEqualToDiffableObject:(nullable id)object
       {
         return [self isEqual:object];
       }

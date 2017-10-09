@@ -30,7 +30,7 @@ function igListDiffableIsEqualMethod():ObjC.Method {
         name: 'isEqualToDiffableObject',
         argument: Maybe.Just<ObjC.KeywordArgument>({
           name: 'object',
-          modifiers: [],
+          modifiers: [ObjC.KeywordArgumentModifier.Nullable()],
           type: {
             name: 'id',
             reference: 'id'
