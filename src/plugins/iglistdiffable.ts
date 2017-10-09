@@ -23,6 +23,7 @@ function isEqualToDiffableObjectMethod():ObjC.Method {
     belongsToProtocol:Maybe.Just<string>('IGListDiffable'),
     code: ['return [self isEqual:object];'],
     comments:[],
+    compilerAttributes:[],
     keywords: [
       {
         name: 'isEqualToDiffableObject',
@@ -36,10 +37,13 @@ function isEqualToDiffableObjectMethod():ObjC.Method {
         })
       }
     ],
-    returnType: Maybe.Just({
-      name: 'BOOL',
-      reference: 'BOOL'
-    })
+    returnType: {
+      type: Maybe.Just<ObjC.Type>({
+        name: 'BOOL',
+        reference: 'BOOL'
+      }),
+      modifiers: []
+    }
   }
 }
 
@@ -148,16 +152,20 @@ function diffIdentifierMethod(objectType:ObjectSpec.Type):ObjC.Method {
     belongsToProtocol:Maybe.Just<string>('IGListDiffable'),
     code: diffIdentifierMethodImplementation(objectType),
     comments:[],
+    compilerAttributes:[],
     keywords: [
       {
         name: 'diffIdentifier',
         argument: Maybe.Nothing<ObjC.KeywordArgument>()
       }
     ],
-    returnType: Maybe.Just({
-      name: 'NSObject',
-      reference: 'id<NSObject>'
-    })
+    returnType: {
+      type: Maybe.Just<ObjC.Type>({
+        name: 'NSObject',
+        reference: 'id<NSObject>'
+      }),
+      modifiers: []
+    }
   }
 }
 
@@ -170,6 +178,9 @@ export function createPlugin():ObjectSpec.Plugin {
       return [];
     },
     attributes: function(objectType:ObjectSpec.Type):ObjectSpec.Attribute[] {
+      return [];
+    },
+    classMethods: function(objectType:ObjectSpec.Type):ObjC.Method[] {
       return [];
     },
     fileTransformation: function(request:FileWriter.Request):FileWriter.Request {

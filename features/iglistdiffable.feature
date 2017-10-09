@@ -22,7 +22,11 @@ Feature: Outputting Value Objects implementing IGListDiffable
       @property (nonatomic, readonly) CGRect someRect;
       @property (nonatomic, readonly, copy) NSString *stringOne;
 
-      - (instancetype)initWithSomeRect:(CGRect)someRect stringOne:(NSString *)stringOne;
+      + (instancetype)new NS_UNAVAILABLE;
+
+      - (instancetype)init NS_UNAVAILABLE;
+
+      - (instancetype)initWithSomeRect:(CGRect)someRect stringOne:(NSString *)stringOne NS_DESIGNATED_INITIALIZER;
 
       @end
 
@@ -113,7 +117,11 @@ Feature: Outputting Value Objects implementing IGListDiffable
 
       @property (nonatomic, readonly) CGRect someRect;
 
-      - (instancetype)initWithSomeRect:(CGRect)someRect;
+      + (instancetype)new NS_UNAVAILABLE;
+
+      - (instancetype)init NS_UNAVAILABLE;
+
+      - (instancetype)initWithSomeRect:(CGRect)someRect NS_DESIGNATED_INITIALIZER;
 
       @end
 
@@ -201,7 +209,11 @@ Feature: Outputting Value Objects implementing IGListDiffable
 
       @property (nonatomic, readonly) CGRect someRect;
 
-      - (instancetype)initWithSomeRect:(CGRect)someRect;
+      + (instancetype)new NS_UNAVAILABLE;
+
+      - (instancetype)init NS_UNAVAILABLE;
+
+      - (instancetype)initWithSomeRect:(CGRect)someRect NS_DESIGNATED_INITIALIZER;
 
       @end
 

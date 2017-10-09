@@ -24,6 +24,7 @@ function igListDiffableIsEqualMethod():ObjC.Method {
     belongsToProtocol:Maybe.Just('IGListDiffable'),
     code: ['return [self isEqual:object];'],
     comments:[],
+    compilerAttributes:[],
     keywords: [
       {
         name: 'isEqualToDiffableObject',
@@ -37,10 +38,13 @@ function igListDiffableIsEqualMethod():ObjC.Method {
         })
       }
     ],
-    returnType: Maybe.Just({
-      name: 'BOOL',
-      reference: 'BOOL'
-    })
+    returnType: {
+      type: Maybe.Just({
+        name: 'BOOL',
+        reference: 'BOOL'
+      }),
+      modifiers:[]
+    }
   }
 }
 
@@ -49,16 +53,20 @@ function igListDiffableDiffIdentifierMethodWithCode(code:string):ObjC.Method {
     belongsToProtocol:Maybe.Just<string>('IGListDiffable'),
     code: [code],
     comments:[],
+    compilerAttributes:[],
     keywords: [
       {
         name: 'diffIdentifier',
         argument: Maybe.Nothing<ObjC.KeywordArgument>()
       }
     ],
-    returnType: Maybe.Just({
-      name: 'NSObject',
-      reference: 'id<NSObject>'
-    })
+    returnType: {
+      type: Maybe.Just({
+        name: 'NSObject',
+        reference: 'id<NSObject>'
+      }),
+      modifiers:[]
+    }
   }
 }
 
