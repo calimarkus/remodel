@@ -26,6 +26,7 @@ export interface Arguments {
   excludes:string[];
   prohibitPluginDirectives:boolean;
   outputFlags:OutputControl.OutputFlags;
+  help:boolean;
 }
 
 const VERBOSE_FLAG:string = 'verbose';
@@ -41,6 +42,7 @@ const EMIT_HEADER:string = 'emit-header';
 const HEADERS_ONLY:string = 'headers-only';
 const IMPL_ONLY:string = 'implementations-only';
 const EMIT:string = 'emit';
+const HELP_FLAG:string = 'help';
 
 const ADT_CONFIG_PATH:string = 'adt-config-path';
 const VALUE_OBJECT_CONFIG_PATH:string = 'value-object-config-path';
@@ -105,7 +107,7 @@ function sanitizeBooleanArg(arg:any, defaultValue:boolean): boolean {
 
 export function parseArgs(args:string[]):Maybe.Maybe<Arguments> {
   const opts = {
-    boolean: [VERBOSE_FLAG, PERF_LOGGING_FLAG, DEBUG_LOGGING_FLAG, SILENT_LOGGING_FLAG, DRY_RUN_FLAG, PROHIBIT_PLUGIN_DIRECTIVES_FLAG, HEADERS_ONLY, IMPL_ONLY],
+    boolean: [VERBOSE_FLAG, PERF_LOGGING_FLAG, DEBUG_LOGGING_FLAG, SILENT_LOGGING_FLAG, DRY_RUN_FLAG, PROHIBIT_PLUGIN_DIRECTIVES_FLAG, HEADERS_ONLY, IMPL_ONLY, HELP_FLAG],
     string: [ADT_CONFIG_PATH, VALUE_OBJECT_CONFIG_PATH, OBJECT_CONFIG_PATH, INCLUDE, EXCLUDE, OUTPUT_PATH, EMIT],
     default: { [HEADERS_ONLY]:false, [IMPL_ONLY]: false },
   };
@@ -137,6 +139,7 @@ export function parseArgs(args:string[]):Maybe.Maybe<Arguments> {
         emitImplementations: !sanitizedHeadersOnly,
         outputList: sanitizeEmitOption(parsedArgs[EMIT]),
       },
+      help:parsedArgs[HELP_FLAG],
     });
   }
 }

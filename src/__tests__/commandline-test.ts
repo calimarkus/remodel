@@ -45,6 +45,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -71,6 +72,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -97,6 +99,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -123,6 +126,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -149,6 +153,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -175,6 +180,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -201,6 +207,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -227,6 +234,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -253,6 +261,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -279,6 +288,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -305,6 +315,34 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
+      });
+
+      expect(parsedArgs).toEqualJSON(expectedResult);
+    });
+
+    it('sets flag to show help if passed flag', function() {
+      const args:string[] = ['project/to/generate', '--help'];
+      const parsedArgs:Maybe.Maybe<CommandLine.Arguments> = CommandLine.parseArgs(args);
+
+      const expectedResult = Maybe.Just<CommandLine.Arguments>({
+        givenPath:'project/to/generate',
+        adtConfigPath:undefined,
+        valueObjectConfigPath:undefined,
+        objectConfigPath:undefined,
+        interestedLoggingTypes:List.of(Logging.LoggingType.info, Logging.LoggingType.error),
+        minimalLevel:10,
+        dryRun: false,
+        outputPath:undefined,
+        includes:[],
+        excludes:[],
+        prohibitPluginDirectives:false,
+        outputFlags: {
+          emitHeaders: true,
+          emitImplementations: true,
+          outputList: [],
+        },
+        help:true,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
@@ -369,6 +407,7 @@ describe('CommandLine', function() {
           emitImplementations: true,
           outputList: [],
         },
+        help:false,
       });
 
       expect(parsedArgs).toEqualJSON(expectedResult);
