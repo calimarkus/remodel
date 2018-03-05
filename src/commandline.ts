@@ -112,11 +112,10 @@ export function parseArgs(args:string[]):Maybe.Maybe<Arguments> {
     default: { [HEADERS_ONLY]:false, [IMPL_ONLY]: false },
   };
   const parsedArgs = minimist(args, opts);
-
   const sanitizedHeadersOnly = sanitizeBooleanArg(parsedArgs[HEADERS_ONLY], false);
   const sanitizedImplsOnly = sanitizeBooleanArg(parsedArgs[IMPL_ONLY], false);
 
-  if (parsedArgs._.length === 0) {
+  if (parsedArgs._.length === 0 && parsedArgs[HELP_FLAG] == false) {
     return Maybe.Nothing<Arguments>();
   } else if (sanitizedHeadersOnly && sanitizedImplsOnly) {
     console.log('Error: %s and %s cannot both be set simultaneously', HEADERS_ONLY, IMPL_ONLY);
