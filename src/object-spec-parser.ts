@@ -55,6 +55,7 @@ function foundTypeFromParsedType(foundType:ObjectMonaParser.ObjectSpecParsedType
     annotations:ObjectGenerationParsingUtils.foundAnnotationFromParsedAnnotations(foundType.annotations),
     attributes:foundType.attributes.map(foundAttributeFromParseResultAttribute),
     comments:foundType.comments,
+    covariantTypes:foundType.covariantTypes,
     typeName:foundType.typeName,
     includes:foundType.includes,
     excludes:foundType.excludes,
@@ -73,7 +74,6 @@ function foundTypeFromParsedType(foundType:ObjectMonaParser.ObjectSpecParsedType
 
 export function parse(input:string):Either.Either<Error.Error[], ObjectSpec.Type> {
   const result:ObjectMonaParser.ObjectSpecParseResult = ObjectMonaParser.parseObjectSpec(input);
-
   if (result.isValid) {
     const foundType:ObjectSpec.Type = foundTypeFromParsedType(result.foundType);
     return Either.Right<Error.Error[], ObjectSpec.Type>(foundType);

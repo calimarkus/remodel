@@ -25,6 +25,7 @@ describe('ObjectSpecPlugins.Coding', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -69,6 +70,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -116,6 +118,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -150,6 +153,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -187,6 +191,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -207,6 +212,7 @@ describe('ObjectSpecPlugins.Coding', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -241,6 +247,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -362,6 +369,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -458,6 +466,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -481,6 +490,7 @@ describe('ObjectSpecPlugins.Coding', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -512,6 +522,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -557,6 +568,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -616,6 +628,7 @@ describe('ObjectSpecPlugins.Coding', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],

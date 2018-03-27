@@ -18,6 +18,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -46,6 +47,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -75,6 +77,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -113,6 +116,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -141,6 +145,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -169,6 +174,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -198,6 +204,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -227,6 +234,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -255,6 +263,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -293,6 +302,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -322,6 +332,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -351,6 +362,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -381,6 +393,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [' First line', ' Second line'],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -402,6 +415,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [' "-}*^@#:;', ' Second line'],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -429,6 +443,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -470,6 +485,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -508,6 +524,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -546,6 +563,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -586,6 +604,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -627,6 +646,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -665,6 +685,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {
@@ -702,6 +723,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           includes: [],
           excludes: [],
           annotations: {},
@@ -734,6 +756,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           annotations: {},
           attributes: [],
           includes: [],
@@ -752,6 +775,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           annotations: {},
           attributes: [],
           includes: [],
@@ -770,6 +794,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           annotations: {},
           attributes: [],
           includes: ['FetchStatus'],
@@ -788,6 +813,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           annotations: {},
           attributes: [
           ],
@@ -808,6 +834,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           annotations: {},
           attributes: [
           ],
@@ -828,6 +855,7 @@ describe('ObjectSpecMonaParser', function() {
         foundType: {
           typeName: 'RMSomething',
           comments: [],
+          covariantTypes: [],
           annotations: {},
           attributes: [
           ],
@@ -848,5 +876,25 @@ describe('ObjectSpecMonaParser', function() {
       };
       expect(actualObjectSpec).toEqualJSON(expectedObjectSpec);
     });
+
+    // it('parses a type with covariantTypes', function() {
+    //   const valueFileContents = 'RMSomething<ObjectType> {{}';
+    //   const actualObjectSpec = parser.parseObjectSpec(valueFileContents);
+    //   const expectedObjectSpec = {
+    //     errorReason: null,
+    //     isValid: true,
+    //     foundType: {
+    //       typeName: 'RMSomething',
+    //       comments: [],
+    //       covariantTypes: ['ObjectType'],
+    //       annotations: {},
+    //       attributes: [
+    //       ],
+    //       includes: ['FetchStatus', 'AnotherValue'],
+    //       excludes: []
+    //     }
+    //   };
+    //   expect(actualObjectSpec).toEqualJSON(expectedObjectSpec);
+    // });
   });
 });

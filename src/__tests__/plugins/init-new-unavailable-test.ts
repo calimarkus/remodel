@@ -24,6 +24,7 @@ describe('ObjectSpecPlugins.InitNewUnavailable', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: ['RMInitNewUnavailable'],
@@ -60,6 +61,7 @@ describe('ObjectSpecPlugins.InitNewUnavailable', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: ['RMInitNewUnavailable'],

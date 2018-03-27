@@ -197,17 +197,23 @@ function namedParenSection(sectionName){
 }
 
 // ex:
-// Name includes(Include) excludes(Exclude)
+// Name<GenericTypeA, GenericTypeB> includes(Include) excludes(Exclude)
 function parseTypeNameSectionWithIncludes() {
   return mona.sequence(function(s) {
     const comments = s(mona.collect(comment()));
     const typeName = s(mona.trim(mona.text(mona.alphanum())));
+    const covariantTypes = s(mona.maybe(mona.between(
+                                        mona.string('<'),
+                                        mona.string('>'),
+                                        mona.split(mona.text(mona.or(mona.alphanum(),
+                                                                     mona.string(',')))))));
     const includes = s(mona.maybe(namedParenSection('includes')));
     const excludes = s(mona.maybe(namedParenSection('excludes')));
 
     const typeNameSection = {
       comments: comments,
       typeName: typeName,
+      covariantTypes: covariantTypes,
       includes: includes,
       excludes: excludes
     };

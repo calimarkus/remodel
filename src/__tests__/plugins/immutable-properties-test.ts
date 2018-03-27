@@ -22,6 +22,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -57,6 +58,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: ['RMValueObjectSemantics'],
@@ -123,6 +125,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -231,6 +234,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: ['RMValueObjectSemantics'],
@@ -375,6 +379,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -463,6 +468,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -487,6 +493,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -511,6 +518,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -534,6 +542,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[
           {
             name:'Foo',
@@ -575,6 +584,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[
           {
             name:'RMSomething',
@@ -619,6 +629,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -658,6 +669,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -697,6 +709,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -736,6 +749,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -775,6 +789,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -814,6 +829,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -852,6 +868,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -889,6 +906,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -926,6 +944,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -963,6 +982,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1000,6 +1020,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1038,6 +1059,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1076,6 +1098,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1114,6 +1137,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1151,6 +1175,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1189,6 +1214,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1227,6 +1253,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1264,6 +1291,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1301,6 +1329,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1338,6 +1367,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1375,6 +1405,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1412,6 +1443,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1449,6 +1481,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1473,6 +1506,7 @@ describe('Plugins.ImmutableProperties', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1505,6 +1539,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1550,6 +1585,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: ['RMValueObjectSemantics'],
@@ -1596,6 +1632,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1746,6 +1783,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -1780,6 +1818,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[
           {
             name:'RMSomething',
@@ -1821,6 +1860,7 @@ describe('Plugins.ImmutableProperties', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],

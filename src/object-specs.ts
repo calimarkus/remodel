@@ -68,6 +68,7 @@ function typeInformationContainingDefaultIncludes(typeInformation:ObjectSpec.Typ
     annotations: typeInformation.annotations,
     attributes: typeInformation.attributes,
     comments: typeInformation.comments,
+    covariantTypes: typeInformation.covariantTypes,
     excludes: typeInformation.excludes,
     includes: PluginInclusionUtils.includesContainingDefaultIncludes(typeInformation.includes, typeInformation.excludes, defaultIncludes),
     libraryName: typeInformation.libraryName,

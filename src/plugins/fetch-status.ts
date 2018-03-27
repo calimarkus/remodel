@@ -54,6 +54,7 @@ function fetchStatusValueTypeForValueType(objectType:ObjectSpec.Type):ObjectSpec
     annotations:{},
     attributes: fetchedAttributesForValueType(objectType),
     comments: [],
+    covariantTypes: [],
     excludes: [],
     includes: [],
     libraryName: objectType.libraryName,

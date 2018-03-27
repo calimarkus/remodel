@@ -22,6 +22,7 @@ describe('Plugins.FetchStatus', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -71,6 +72,7 @@ describe('Plugins.FetchStatus', function() {
         }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -99,6 +101,7 @@ describe('Plugins.FetchStatus', function() {
         }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],

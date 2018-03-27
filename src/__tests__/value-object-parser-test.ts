@@ -56,6 +56,7 @@ describe('ObjectSpecParser', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -137,6 +138,7 @@ describe('ObjectSpecParser', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[
           {
             name:'Foo',
@@ -216,6 +218,7 @@ describe('ObjectSpecParser', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],

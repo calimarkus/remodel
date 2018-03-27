@@ -33,6 +33,7 @@ export interface Type {
   annotations: {[name:string]: ObjectGeneration.Annotation[];};
   attributes: Attribute[];
   comments: string[];
+  covariantTypes: string[];
   excludes: string[];
   includes: string[];
   libraryName:Maybe.Maybe<string>;

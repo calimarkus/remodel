@@ -53,6 +53,7 @@ describe('requireObjectSpecPlugin', function() {
               annotations: {},
               attributes:[],
               comments: [],
+              covariantTypes: [],
               typeLookups:[],
               excludes:[],
               includes:[],

@@ -26,6 +26,7 @@ describe('ObjectSpecPlugins.Description', function() {
           annotations: {},
           attributes: [],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -70,6 +71,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -117,6 +119,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -151,6 +154,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -186,6 +190,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -208,6 +213,7 @@ describe('ObjectSpecPlugins.Description', function() {
           annotations: {},
           attributes: [],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -238,6 +244,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -292,6 +299,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -346,6 +354,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -400,6 +409,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -454,6 +464,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -508,6 +519,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -562,6 +574,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -616,6 +629,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -670,6 +684,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -724,6 +739,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -778,6 +794,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -832,6 +849,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -886,6 +904,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -941,6 +960,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -995,6 +1015,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -1049,6 +1070,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -1103,6 +1125,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -1157,6 +1180,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -1211,6 +1235,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),
@@ -1265,6 +1290,7 @@ describe('ObjectSpecPlugins.Description', function() {
             }
           ],
           comments: [],
+          covariantTypes: [],
           excludes: [],
           includes: [],
           libraryName: Maybe.Nothing<string>(),

@@ -24,6 +24,7 @@ describe('ObjectSpecPlugins.SubclassingRestricted', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: ['RMSubclassingRestricted'],

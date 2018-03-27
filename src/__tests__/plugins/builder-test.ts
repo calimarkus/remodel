@@ -25,6 +25,7 @@ describe('Plugins.Builder', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: ['RMValueObjectSemantics'],
         libraryName: Maybe.Nothing<string>(),
@@ -161,6 +162,7 @@ describe('Plugins.Builder', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: ['RMValueObjectSemantics'],
         libraryName: Maybe.Just<string>('RMSomeLibrary'),
@@ -340,6 +342,7 @@ describe('Plugins.Builder', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: ['RMValueObjectSemantics'],
         libraryName: Maybe.Nothing<string>(),
@@ -640,6 +643,7 @@ describe('Plugins.Builder', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),

@@ -25,6 +25,7 @@ describe('ObjectSpecPlugins.Equality', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -69,6 +70,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -116,6 +118,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -150,6 +153,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -200,6 +204,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -392,6 +397,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -516,6 +522,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           },
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -601,6 +608,7 @@ describe('ObjectSpecPlugins.Equality', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -621,6 +629,7 @@ describe('ObjectSpecPlugins.Equality', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -654,6 +663,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -773,6 +783,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -878,6 +889,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),
@@ -974,6 +986,7 @@ describe('ObjectSpecPlugins.Equality', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         excludes: [],
         includes: [],
         libraryName: Maybe.Nothing<string>(),

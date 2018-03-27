@@ -10,6 +10,7 @@ export interface ObjectSpecParsedType {
   annotations:{[name:string]: {[key:string]: string}[];};
   attributes:ParsedAttribute[];
   comments:string[];
+  covariantTypes:string[];
   typeName:string;
   includes:string[];
   excludes:string[];

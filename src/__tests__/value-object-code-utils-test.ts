@@ -24,6 +24,7 @@ describe('ObjectSpecCodeUtils', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -42,6 +43,7 @@ describe('ObjectSpecCodeUtils', function() {
         annotations: {},
         attributes: [],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -74,6 +76,7 @@ describe('ObjectSpecCodeUtils', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -106,6 +109,7 @@ describe('ObjectSpecCodeUtils', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],
@@ -152,6 +156,7 @@ describe('ObjectSpecCodeUtils', function() {
           }
         ],
         comments: [],
+        covariantTypes: [],
         typeLookups:[],
         excludes: [],
         includes: [],

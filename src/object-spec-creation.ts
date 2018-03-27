@@ -119,6 +119,7 @@ function typeInformationWithAllAttributesFromPlugins(typeInformation:ObjectSpec.
     annotations: typeInformation.annotations,
     attributes: typeInformation.attributes.concat(pluginAttributes),
     comments: typeInformation.comments,
+    covariantTypes: typeInformation.covariantTypes,
     excludes: typeInformation.excludes,
     includes: typeInformation.includes,
     libraryName: typeInformation.libraryName,
