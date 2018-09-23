@@ -149,7 +149,10 @@ function initBlockWithInternalCode(internalCode:string[]):string[] {
 
 function decodeMethodWithCode(code:string[]):ObjC.Method {
   return {
-    preprocessors:[],
+    preprocessors:[{
+      openingCode: '#pragma clang diagnostic push\n#pragma clang diagnostic ignored "-Wobjc-designated-initializers"',
+      closingCode: '#pragma clang diagnostic pop',
+    }],
     belongsToProtocol:Maybe.Just<string>('NSCoding'),
     code: initBlockWithInternalCode(code),
     comments:[],
